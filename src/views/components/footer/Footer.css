@@ -34,25 +34,6 @@
 	animation: var(--animation__hand_wave);
 }
 
-.sok-Footer-logo {
-	width: 80px;
-	display: flex;
-	align-items: center;
-}
-
-.sok-Footer-logo > a {
-	display: flex;
-	width: 100%;
-	height: 100%;
-	justify-content: center;
-	align-items: center;
-}
-
-.sok-Footer-logo > a > img {
-	width: 100%;
-	height: auto;
-}
-
 .sok-Footer-right {
 	width: 50%;
 	height: 100%;
