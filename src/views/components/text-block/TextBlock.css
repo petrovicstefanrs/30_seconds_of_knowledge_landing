@@ -1,0 +1,22 @@
+.sok-TextBlock {
+	text-align: center;
+	margin-top: 32px;
+	color: var(--color__white--dark);
+	font-weight: 400;
+}
+
+.sok-TextBlock > span {
+	color: var(--color__white--dark);
+	font-weight: 500;
+}
+
+.sok-TextBlock strong {
+	color: var(--color__white);
+	font-weight: 900;
+}
+
+.sok-TextBlock > a {
+	color: var(--color__orange);
+	border-bottom: 1px dotted;
+	font-weight: 700;
+}

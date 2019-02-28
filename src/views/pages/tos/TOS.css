@@ -1,0 +1,21 @@
+.sok-TOS .sok-TOS-content {
+	align-items: flex-start;
+}
+
+.sok-TOS .sok-TextBlock {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.sok-TOS .sok-TextBlock ol {
+	margin: 8px;
+}
+
+.sok-TOS .sok-TextBlock > ol > li {
+	margin: 8px;
+}
+
+.sok-TOS h2 {
+	margin-top: 48px;
+}

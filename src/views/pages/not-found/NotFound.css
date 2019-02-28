@@ -1,0 +1,44 @@
+.sok-NotFound-section {
+	justify-content: center;
+	align-items: center;
+}
+
+.sok-NotFound-section > img {
+	width: 200px;
+	height: auto;
+}
+
+.sok-NotFound-section .sok-TextBlock {
+	margin-top: 0;
+}
+
+.sok-NotFound-section .sok-Button {
+	margin-top: 32px;
+}
+
+.sok-NotFound-section:before {
+	content: '';
+	width: 400px;
+	height: 160px;
+	right: 0;
+	top: 128px;
+	position: absolute;
+	background: var(--gradient__gray_abstract_1);
+	animation: var(--animation__blob--2);
+	opacity: 0.3;
+	z-index: -1;
+	pointer-events: none;
+}
+
+.sok-NotFound-section:after {
+	content: '';
+	width: 288px;
+	height: 280px;
+	bottom: 128px;
+	left: 0;
+	position: absolute;
+	background: var(--gradient__gray_abstract_1);
+	animation: var(--animation__blob--1);
+	opacity: 0.3;
+	pointer-events: none;
+}

@@ -1,0 +1,109 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700,900');
+@import 'animations.css';
+
+/* Variables */
+
+:root {
+
+	/* Colors */
+
+	--color__white: #ffffff;
+	--color__white--dark: #b7b7cd;
+	--color__gray: #353740;
+	--color__gray--light: #5e5d66;
+	--color__gray--dark: #21212a;
+	--color__orange: #fea04f;
+	--color__orange--light: #fe1605;
+
+	/* Language Colors */
+
+	--color__lang__js: #F0DB4E;
+	--color__lang__react: #009bb7;
+	--color__lang__python: linear-gradient(135deg, #56a9ec 0%,#56a9ec 50%,#ffe05d 50%,#ffe05d 100%);
+	--color__lang__interview: #5100ff;
+	--color__lang__php: #AEB2D5;
+	--color__lang__css: #2CAAE1;
+
+	--drop-shadow__regular: 1px 1px 16px 1px rgba(0, 0, 0, 0.2);
+
+	--gradient__orange: linear-gradient(to left, rgba(246,4,0,1) 0%,rgba(254,160,79,1) 100%);
+	--gradient__orange_abstract_1: radial-gradient(ellipse at center, #fea04f 0%,#f99a00 31%,#fe1605 100%);
+	--gradient__orange_abstract_2: radial-gradient(ellipse at center, #fe1605 0%,#f99a00 31%,#fea04f 100%);
+	--gradient__gray_abstract_1: radial-gradient(ellipse at center, #5e5d66 0%, #353740 31%,#21212a 100%);
+
+	--gradient__bg_to_transparent: linear-gradient(to bottom, var(--color__gray--dark) 0%,rgba(0, 0, 0, 0) 100%);
+	--gradient__transparent_to_bg: linear-gradient(to top, var(--color__gray--dark) 30%,rgba(0, 0, 0, 0) 100%);
+	--gradient__transparent_to_bg--inverse: linear-gradient(to bottom, var(--color__gray--dark) 30%,rgba(0, 0, 0, 0) 100%);
+	--gradient__transparent_to_bg--left: linear-gradient(to right, var(--color__gray--dark) 0%,rgba(0, 0, 0, 0) 100%);
+	--gradient__transparent_to_bg--right: linear-gradient(to left, var(--color__gray--dark) 0%,rgba(0, 0, 0, 0) 100%);
+
+	/* Content */
+
+	--content__maxWidth: 936px;
+	--content__minHeight: calc(100vh - var(--main_menu--height));
+
+	/* Main Menu */
+
+	--main_menu--height: 100px;
+	--main_menu--bg: var(--color__gray--dark);
+
+	/* Buttons */
+
+	--button__height: 48px;
+	--button__width--min: 48px;
+	--button__width--max: calc(var(--button__width--min)*4);
+	--button__drop-shadow: 0 10px 20px 2px rgba(0,0,0,0.3);
+
+	/* Animbations */
+
+	/* stylelint-disable */
+
+	--animation__blob--1: animate_blob_1 30s cubic-bezier(0.75, 0.82, 0.165, 1) infinite;
+	--animation__blob--2: animate_blob_2 15s cubic-bezier(0.75, 0.82, 0.165, 1) infinite;
+
+	--animation__pulsate--1: pulsate_1 2s ease-in-out infinite both;
+	--animation__pulsate--2: pulsate_2 3s ease-in-out infinite both;
+
+	--animation__hand_wave: animate_hand_wave 2s cubic-bezier(0.75, 0.82, 0.165, 1) infinite;
+
+	/* stylelint-enable */
+}
+
+/* Global */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+	font-family: 'Roboto Mono', 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: var(--color__gray--dark);
+	color: var(--color__white);
+	font-weight: 500;
+	font-size: 12px;
+}
+
+code {
+	font-family: 'Roboto Mono', 'source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 900;
+	color: var(--color__orange);
+}
+
+strong {
+	font-weight: 900;
+	color: var(--color__orange);
+}

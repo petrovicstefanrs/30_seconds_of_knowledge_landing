@@ -1,0 +1,18 @@
+.sok-PageWrapper {
+	max-width: var(--content__maxWidth);
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 16px;
+}
+
+.sok-PageWrapper-vertical {
+	flex-direction: column;
+}
+
+.sok-PageWrapper-horizontal {
+	flex-direction: row;
+	justify-content: center;
+}

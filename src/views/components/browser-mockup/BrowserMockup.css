@@ -1,0 +1,91 @@
+.sok-BrowserMockup-perspective {
+	perspective: 100vw;
+	transform-style: preserve-3d;
+	width: 100%;
+	padding: 0 32px;
+}
+
+.sok-BrowserMockup {
+	border: solid 10px #e8e8e8;
+	border-top-width: 45px;
+	border-radius: 6px;
+	box-shadow: 3px 12px 30px -8px rgba(0, 0, 0, 0.4);
+	transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	transform-origin: center center;
+	transition: all 0.3s ease-in-out;
+}
+
+.sok-BrowserMockup.sok-BrowserMockup-top {
+	transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.sok-BrowserMockup.sok-BrowserMockup-bottom {
+	transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.sok-BrowserMockup.sok-BrowserMockup-left {
+	transform: rotateX(0deg) rotateY(20deg) rotateZ(0deg);
+}
+
+.sok-BrowserMockup.sok-BrowserMockup-right {
+	transform: rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+}
+
+.sok-BrowserMockup:hover {
+	transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.sok-BrowserMockup ::-webkit-scrollbar {
+	width: 0;
+}
+
+.sok-BrowserMockup .sok-BrowserMockup-content {
+	overflow: hidden;
+	max-height: 400px;
+	min-height: 400px;
+	background: var(--color__gray--dark);
+}
+
+.sok-BrowserMockup .sok-BrowserMockup-content.sok-BrowserMockup-content-withScroll {
+	overflow-y: scroll;
+}
+
+.sok-BrowserMockup img {
+	width: 100%;
+	height: auto;
+}
+
+.sok-BrowserMockup .sok-BrowserMockup-controls {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	top: -27px;
+	left: 30px;
+	background: #000;
+	background: #FEC031;
+	border-radius: 50%;
+	opacity: 0.12;
+	opacity: 1;
+}
+
+.sok-BrowserMockup .sok-BrowserMockup-controls:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: -20px;
+	background: #000;
+	background: #FF6054;
+	border-radius: 50%;
+}
+
+.sok-BrowserMockup .sok-BrowserMockup-controls:after {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	right: -20px;
+	background: #000;
+	background: #00CE4A;
+	border-radius: 50%;
+}

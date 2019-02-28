@@ -1,0 +1,69 @@
+.sok-Button {
+	min-width: var(--button__width--min);
+	max-width: var(--button__width--max);
+	width: 180px;
+	text-decoration: none;
+	cursor: pointer;
+	height: var(--button__height);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	background: var(--color__white);
+	color: var(--color__gray--dark);
+	font-weight: 700;
+	transition: all 0.3s ease-in-out;
+	box-shadow: none;
+	margin: 0 8px;
+	padding: 16px;
+}
+
+.sok-Button-secondary {
+	height: var(--button__height);
+	align-items: center;
+	justify-content: flex-start;
+	color: var(--color__white--dark);
+	background: transparent;
+	width: auto;
+}
+
+.sok-Button-secondary:hover > * {
+	border-bottom: 1px dotted;
+}
+
+.sok-Button-secondary:hover {
+	box-shadow: none !important;
+	transform: unset !important;
+}
+
+.sok-Button:hover {
+	box-shadow: var(--button__drop-shadow);
+	transform: scale(1.05);
+}
+
+.sok-Button-icon {
+	height: 16px;
+	width: auto;
+}
+
+.sok-Button-left {
+	flex-direction: row;
+}
+
+.sok-Button-right {
+	flex-direction: row-reverse;
+}
+
+.sok-Button-left > .sok-Button-icon {
+	margin-right: 10px;
+}
+
+.sok-Button-right > .sok-Button-icon {
+	margin-left: 10px;
+}
+
+.sok-Button-disabled {
+	cursor: not-allowed;
+	background: var(--color__gray);
+	border-color: var(--color__gray--light);
+}
