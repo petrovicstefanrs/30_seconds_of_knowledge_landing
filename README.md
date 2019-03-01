@@ -1,4 +1,4 @@
-<p align="center"><img width=400 src="https://30secondsofknowledge.com/images/socialpreview.jpg"/></a></p>
+<p align="center"><img width=400 src="https://30secondsofknowledge.com/socialpreview.jpg"/></a></p>
 
 ------
 
