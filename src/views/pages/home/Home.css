@@ -228,6 +228,12 @@
 	font-size: 1em;
 }
 
+.sok-Home-snippets-chip[data-lang='ruby'] {
+	background: var(--color__lang__ruby);
+	color: var(--color__white);
+	font-size: 1em;
+}
+
 /* Save Feature Section */
 
 .sok-Home-savefeature {

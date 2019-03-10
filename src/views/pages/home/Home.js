@@ -10,6 +10,7 @@ import Confetti from '../../components/confetti';
 import ENV from '../../../env';
 
 import icon_chrome from '../../../images/icons/chrome.svg';
+import icon_firefox from '../../../images/icons/firefox.svg';
 import icon_merch from '../../../images/icons/merch.svg';
 import icon_email from '../../../images/icons/email.svg';
 import icon_fb from '../../../images/icons/facebook_gradient.svg';
@@ -44,6 +45,11 @@ class Home extends Component {
 						icon={icon_chrome}
 					/>
 					<Button
+						href="https://addons.mozilla.org/en-US/firefox/addon/30-seconds-of-knowledge/"
+						text="Add to Firefox"
+						icon={icon_firefox}
+					/>
+					<Button
 						href="https://github.com/petrovicstefanrs/30_seconds_of_knowledge"
 						text="Github"
 						secondary={true}
@@ -64,11 +70,11 @@ class Home extends Component {
 					<h2>500+ Snippets (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧</h2>
 					<TextBlock>
 						Each time you open a <strong>New Tab</strong>, you will get a random
-						<strong>Code Snippet</strong> from a library of <strong>500+ snippets</strong>.
+						<strong>Code Snippet</strong> from a library of <strong>~600 snippets</strong>.
 						<br />
 						<br />
-						There are <strong>6 Categories</strong> of snippets,
-						<strong>5 Programming Languages</strong> and <strong>Interview Questions</strong>, with
+						There are <strong>7 Categories</strong> of snippets,
+						<strong>6 Programming Languages</strong> and <strong>Interview Questions</strong>, with
 						more categories on the way!
 						<br />
 						<br />
@@ -95,6 +101,9 @@ class Home extends Component {
 					<span data-lang="php" className={CLASS + '-snippets-chip'}>
 						PHP
 					</span>
+					<span data-lang="ruby" className={CLASS + '-snippets-chip'}>
+						Ruby
+					</span>
 					<span data-lang="interview" className={CLASS + '-snippets-chip'}>
 						Interview Questions
 					</span>
@@ -109,7 +118,7 @@ class Home extends Component {
 				<div className={CLASS + '-savefeature-left'}>
 					<h2>٩( ๑╹ ꇴ╹)۶ Save for later</h2>
 					<TextBlock>
-						All snippets are designed to be understandable in <strong>30 Seconds of less</strong>,
+						All snippets are designed to be understandable in <strong>30 Seconds or less</strong>,
 						however you may not always have time, to read more than just the title. In case a
 						snippet seems interesting, you can simply <strong>Save</strong> it for later.
 						<br />
