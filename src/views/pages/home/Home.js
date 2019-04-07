@@ -35,7 +35,7 @@ class Home extends Component {
 				<TextBlock>
 					Become a <strong>better Developer</strong>, one <strong>New Tab</strong> at a time.
 					<br />
-					Get a random code snippet, from <strong>6 availabe categories</strong>,<br />
+					Get a random code snippet, from <strong>9 availabe categories</strong>,<br />
 					that you can read and understand in <strong>30 seconds of less</strong>...
 				</TextBlock>
 				<div className={CLASS + '-landing-buttons'}>
@@ -67,14 +67,14 @@ class Home extends Component {
 		return (
 			<SectionWrapper className={CLASS + '-snippets'}>
 				<div className={CLASS + '-snippets-left'}>
-					<h2>500+ Snippets (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧</h2>
+					<h2>~900 Snippets (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧</h2>
 					<TextBlock>
 						Each time you open a <strong>New Tab</strong>, you will get a random
-						<strong>Code Snippet</strong> from a library of <strong>~600 snippets</strong>.
+						<strong>Code Snippet</strong> from a library of <strong>~900 snippets</strong>.
 						<br />
 						<br />
-						There are <strong>7 Categories</strong> of snippets,
-						<strong>6 Programming Languages</strong> and <strong>Interview Questions</strong>, with
+						There are <strong>9 Categories/Libraries</strong> of snippets,
+						consisting of <strong>Programming Languages, Frameworks & Interview Questions</strong>, with
 						more categories on the way!
 						<br />
 						<br />
@@ -103,6 +103,12 @@ class Home extends Component {
 					</span>
 					<span data-lang="ruby" className={CLASS + '-snippets-chip'}>
 						Ruby
+					</span>
+					<span data-lang="ramda" className={CLASS + '-snippets-chip'}>
+						Ramda
+					</span>
+					<span data-lang="cpp" className={CLASS + '-snippets-chip'}>
+						C++
 					</span>
 					<span data-lang="interview" className={CLASS + '-snippets-chip'}>
 						Interview Questions

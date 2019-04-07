@@ -234,6 +234,18 @@
 	font-size: 1em;
 }
 
+.sok-Home-snippets-chip[data-lang='ramda'] {
+	background: var(--color__lang__ramda);
+	color: var(--color__white);
+	font-size: 1em;
+}
+
+.sok-Home-snippets-chip[data-lang='cpp'] {
+	background: var(--color__lang__cpp);
+	color: var(--color__white);
+	font-size: 1em;
+}
+
 /* Save Feature Section */
 
 .sok-Home-savefeature {
