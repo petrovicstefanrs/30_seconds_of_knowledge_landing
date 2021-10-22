@@ -7,6 +7,7 @@ import Home from '../../pages/home';
 import NotFound from '../../pages/not-found';
 import Privacy from '../../pages/privacy';
 import TOS from '../../pages/tos';
+import Jobs from '../../pages/jobs';
 
 import MainMenu from '../../components/main-menu';
 import Footer from '../../components/footer/Footer';
@@ -49,6 +50,7 @@ class RootRouter extends Component {
 						<Route exact name="Home" path={routes.HOME} component={Home} />
 						<Route exact name="Privacy Policy" path={routes.PRIVACY} component={Privacy} />
 						<Route exact name="Terms Of Service" path={routes.TOS} component={TOS} />
+						<Route exact name="Remote Jobs Posting" path={routes.JOBS} component={Jobs} />
 						<Route name="Not Found" path="*" component={NotFound} />
 					</Switch>
 				</RouteContainer>

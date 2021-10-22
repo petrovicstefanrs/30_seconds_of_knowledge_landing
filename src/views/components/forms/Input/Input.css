@@ -1,0 +1,17 @@
+.inputContainer {
+  margin-bottom: 30px;
+}
+
+.inputContainer .input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px 10px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  border: 1px solid var(--color__white--dark);
+  outline: none;
+  color: white;
+}

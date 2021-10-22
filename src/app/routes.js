@@ -5,6 +5,7 @@
 export const HOME = '/';
 export const PRIVACY = '/privacy';
 export const TOS = '/tos';
+export const JOBS = '/postjob';
 
 //**********************************************************************************************************************
 // PUBLIC ROUTES

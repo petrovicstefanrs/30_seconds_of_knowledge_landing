@@ -27,6 +27,17 @@
 	width: auto;
 }
 
+.sok-Button-submit {
+	height: var(--button__height);
+	align-items: center;
+	justify-content: flex-start;
+	color: black;
+	font-size: 14px;
+	width: auto;
+	background: var(--color__orange);
+	margin: 0px;
+}
+
 .sok-Button-secondary:hover > * {
 	border-bottom: 1px dotted;
 }

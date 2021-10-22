@@ -15,7 +15,7 @@ const BUTTON_TYPES = {
 	link: 'a',
 };
 
-const Button = ({text, icon, iconPos, onClick, href, disabled, secondary = false, linkTarget = '_blank'}) => {
+const Button = ({text, icon, iconPos, onClick, href, disabled, secondary = false, submitButton = false, linkTarget = '_blank'}) => {
 	const handleClick = () => {
 		onClick && !disabled && onClick();
 	};
@@ -24,10 +24,11 @@ const Button = ({text, icon, iconPos, onClick, href, disabled, secondary = false
 	const positionClass = ` ${CLASS}-${iconPos}`;
 	const disabledClass = disabled ? ` ${CLASS}-disabled` : '';
 	const secondaryClass = secondary ? ` ${CLASS}-secondary` : '';
-
+	const submitClass = submitButton ? ` ${CLASS}-submit` : ''
+	console.log(submitClass, 'submitClass');
 	return Type === BUTTON_TYPES.link ? (
 		<a
-			className={CLASS + positionClass + disabledClass + secondaryClass}
+			className={CLASS + positionClass + disabledClass + secondaryClass + submitClass}
 			href={href}
 			target={linkTarget}
 			rel="noopener noreferrer"
@@ -36,7 +37,7 @@ const Button = ({text, icon, iconPos, onClick, href, disabled, secondary = false
 			<span className={CLASS + '-text'}>{text}</span>
 		</a>
 	) : (
-		<Type className={CLASS + positionClass + disabledClass + secondaryClass} onClick={handleClick} href={href}>
+		<Type className={CLASS + positionClass + disabledClass + secondaryClass + submitClass} onClick={handleClick} href={href}>
 			{icon && <img className={CLASS + '-icon'} src={icon} alt={text + ' icon'} />}
 			<span className={CLASS + '-text'}>{text}</span>
 		</Type>

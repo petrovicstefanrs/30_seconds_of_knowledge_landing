@@ -232,18 +232,7 @@ class Home extends Component {
 	renderPHButton = () => {
 		return (
 			<div className={CLASS + '-productHuntButton'}>
-				<a
-					href="https://www.producthunt.com/posts/30-seconds-of-knowledge?utm_source=badge-featured"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<img
-						src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=144348&theme=light"
-						alt="30 Seconds of Knowledge - Become a better developer, in every new tab. | Product Hunt Embed"
-						width="192px"
-						height="48px"
-					/>
-				</a>
+				<a href="https://www.producthunt.com/posts/30-seconds-of-knowledge?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-30-seconds-of-knowledge" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=144348&theme=light&period=daily" alt="30 Seconds of Knowledge - Become a better developer, in every new tab. | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a>
 			</div>
 		);
 	};

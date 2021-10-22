@@ -1,0 +1,127 @@
+.sok-Jobs .sok-Jobs-content {
+	align-items: flex-start;
+}
+
+.sok-Jobs .sok-Jobs-content .title {
+	text-transform: none;
+    margin: 0px;
+}
+
+.sok-Jobs .sok-Jobs-content .subtitle {
+	font-size: 16px;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .form {
+    min-width: 400px;
+    flex: 1;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard {
+    width: 100%;
+    padding: 24px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #353740;
+    border-radius: 3px;
+    min-height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content {
+    display: flex;
+    width: 100%;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content .logo {
+    width: 100px;
+    height: 100px;
+    background: #21212a;
+    border-radius: 3px;
+    min-width: 100px;
+    margin-right: 20px;
+    background-size: cover;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content .title {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content .company {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content .jobInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .photoUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .photoUpload h3 {
+    text-transform: none;
+}
+
+.sok-Jobs .sok-Jobs-content .wrapper .preview .exampleCard .content .seniority {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.sok-Jobs .sok-Jobs-content .form .title,
+.sok-Jobs .sok-Jobs-content .preview .title {
+    text-transform: none;
+    margin-bottom: 20px;
+}
+
+.sok-Jobs .sok-TextBlock {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+
+.sok-Jobs .sok-TextBlock ol {
+	margin: 8px;
+}
+
+.sok-Jobs .sok-TextBlock > ol > li {
+	margin: 8px;
+}
+
+.sok-Jobs h2 {
+	margin-top: 48px;
+}
+
+/* Product Hunt Button */
+
+.sok-Jobs-productHuntButton {
+	z-index: 9999;
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+}
+
+.sok-Jobs-productHuntButton > a {
+	width: 192px;
+	height: var(--button__height);
+}

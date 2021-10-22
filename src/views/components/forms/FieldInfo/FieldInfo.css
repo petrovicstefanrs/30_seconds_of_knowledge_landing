@@ -1,0 +1,10 @@
+.info {
+  font-size: 12px;
+  color: var(--color__white--dark);
+  line-height: 24px;
+  height: 24px;
+}
+.error {
+  font-weight: 600;
+  color: red;
+}
